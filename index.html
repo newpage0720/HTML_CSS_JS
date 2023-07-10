@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="pre-loader">
+        <div class="box">
+            <img src="./assets/logo.png">
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <!-- <img class="fix-image" src="./assets/banner1.png" alt="fix-image" /> -->
+
+    <nav id="nav">
+        <div class="container">
+            <div class="navbar">
+                <div class="logos">
+                    <img class="logo" src="./assets/logo.png">
+                    <a href="#" class="logoname">OSTOKSIA</a>
+                </div>
+
+                <div class="navigation" id="navigation">
+                    <div class="navigation-items">
+                        <a href="#">Home <i class="navicon">。</i></a>
+                        <a href="#">About <i class="navicon">。</i></a>
+                        <a href="#">Explore <i class="navicon">。</i></a>
+                        <a href="#">Gallery <i class="navicon">。</i></a>
+                        <a href="#">Contact <i class="navicon">。</i></a>
+                    </div>
+                </div>
+                <div class="menu-icon" id="menu-icon">
+                    <img src="./assets/menu.png" onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header-text">
+                <div class="texts text1">
+                    <h1>Greate Fashion <br><span>Collection 2023</span></h1>
+                    <p>Up To 40% Off Final Sale Items.<br>Caught in the Mament !</p>
+
+                    <a href="#">Read More</a>
+                </div>
+                <div class="texts text2">
+                    <h1>Greate Fashion <br><span>Collection 2023</span></h1>
+                    <p>Up To 40% Off Final Sale Items.<br>Caught in the Mament !</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-overlay">
+        </div>
+
+        <div class="video-container">
+            <video class="videos video1 fade" autoplay loop muted data-big-vid="./assets/1L.mp4"
+                data-mid-vid="./assets/1M.mp4" data-small-vid="./assets/1S.mp4"></video>
+            <video class="videos video2 fade" autoplay loop muted data-big-vid="./assets/2L.mp4"
+                data-mid-vid="./assets/2M.mp4" data-small-vid="./assets/2S.mp4"></video>
+        </div>
+
+
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+
+
+    <!------------------------------------------------------------------------>
+    <!-- 
+        - #BANNER
+      -->
+    <div class="slide-container" data-section>
+        <div id="banner-slider">
+            <img src="./assets/banner1.png" alt="" class="slides" />
+            <img src="./assets/banner2.png" alt="" class="slides" />
+            <img src="./assets/banner3.png" alt="" class="slides" />
+            <img src="./assets/banner4.png" alt="" class="slides" />
+            <img src="./assets/banner5.png" alt="" class="slides" />
+            <div id="prev"><i class="fa-solid fa-angles-left"></i> </div>
+            <div id="next"><i class="fa-solid fa-angles-right"></i> </div>
+        </div>
+        <div class="dots-container">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------>
+
+    <!-- 
+        - #BACKTOTOP
+      -->
+    <div id="backToTop"><i class="fa fa-arrow-up"></i></div>
+
+    <!------------------------------------------------------------------------>
+
+    <!-- 
+        - #COLLECTION
+      -->
+
+    <section class="section collection" data-section>
+        <div class="container">
+
+            <ul class="collection-list">
+
+                <li>
+                    <div class="collection-card has-bg-image" style="background-image: url('./assets/collection1.png')">
+
+                        <span class="card-sub-title">Shop Woman</span>
+                        <h2 class="h2 card-title">Summer Collection</h2>
+
+                        <p class="card-text">Starting at $17.99</p>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">Shop Now</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collection-card  has-bg-image"
+                        style="background-image: url('./assets/collection2.png')">
+
+                        <span class="card-sub-title">19% Discount</span>
+                        <h2 class="h2 card-title">What’s New?</h2>
+
+                        <p class="card-text">Get the glow</p>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">Discover Now</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collection-card has-bg-image" style="background-image: url('./assets/collection3.png')">
+
+                        <span class="card-sub-title">50% Discount</span>
+                        <h2 class="h2 card-title">Buy 1 Get 1</h2>
+
+                        <p class="card-text">Starting at $7.99</p>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">Discover Now</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- 
+        - #PRODUCTS
+      -->
+
+    <section class="section products" data-section>
+        <div class="container">
+            <h1 class="heading"> Exclusive <span>Products</span> </h1>
+
+            <div class="tab_css">
+                <!-- TAB1 打包區塊 start -->
+                <input id="tab1" type="radio" name="tab" checked="checked" />
+                <label for="tab1">Featured</label>
+                <div class="tab_content">
+                    <div class="box-container">
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img2.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img3.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="arrivals">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img4.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img5.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="arrivals">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img6.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img7.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img8.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img9.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img10.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img11.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img12.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- TAB1 打包區塊 end -->
+
+                <!-- TAB2 打包區塊 start -->
+                <input id="tab2" type="radio" name="tab" />
+                <label for="tab2">special offer</label>
+                <div class="tab_content">
+                    <div class="box-container">
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img3.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img5.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img7.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img9.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img11.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img12.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- TAB2 打包區塊 end -->
+
+                <!-- TAB3 打包區塊 start -->
+                <input id="tab3" type="radio" name="tab" />
+                <label for="tab3">best seller</label>
+                <div class="tab_content">
+                    <div class="box-container">
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="seller">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img3.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="featured">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img5.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" data-item="special">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-search"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/product_img7.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>product name</h3>
+                                <div class="price">
+                                    <div class="amount">$20.00</div>
+                                    <div class="cut">$25.00</div>
+                                    <div class="offer">20% off</div>
+                                </div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(50)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- TAB3 打包區塊 end -->
+            </div>
+        </div>
+    </section>
+    <!-- 
+        - #BACKGROUD AD
+      -->
+    <div class="back-ad">
+        <a href="#" class="ad" target="_blank">
+            <img src="./assets/banner1.png">
+        </a>
+    </div>
+
+    <!-- 
+        - #COUNTDOWN
+      -->
+    <section class="section countdown" data-section>
+        <div class="container">
+            <div class="collection-card has-bg-image" style="background-image: url('./assets/countdown1.png')">
+
+                <h2 class="h2 card-title">Summer Collection</h2>
+
+                <p class="card-text">Starting at $17.99</p>
+                <div id="clock">
+                    <div>
+                        <span class="span days"></span>
+                        <div class="smalltext">Days</div>
+                        <!-- <span class="sign">:</sapn> -->
+                    </div>
+
+                    <div>
+                        <span class="span hours"></span>
+                        <div class="smalltext">Hrs</div>
+                    </div>
+
+                    <div>
+                        <span class="span minutes"></span>
+                        <div class="smalltext">Mins</div>
+                    </div>
+
+                    <div>
+                        <span class="span seconds"></span>
+                        <div class="smalltext">Secs</div>
+                    </div>
+                </div>
+                <a href="#" class="btn-link">
+                    <span class="span">Shop Now</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #FOOTER
+  -->
+    <section class="section footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <ul class="footer-list company">
+
+                    <li>
+                        <p class="footer-list-title">Company</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text">
+                            Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text">hello@domain.com</p>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list links">
+
+                    <li>
+                        <p class="footer-list-title">Useful links</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">New Products</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Best Sellers</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Bundle & Save</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Online Gift Card</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list infomation">
+
+                    <li>
+                        <p class="footer-list-title">Infomation</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Start a Return</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Shipping FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Terms & Conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer-list email">
+
+                    <p class="newsletter-title">Good emails.</p>
+
+                    <p class="newsletter-text">
+                        Enter your email below to be the first to know about new product launches.
+                    </p>
+
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email_address" placeholder="Enter your email address" required
+                            class="email-field">
+
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <img src="./assets/logo.png" loading="lazy" alt="OSTOKSIA">
+                        <a href="#" class="logoname">OSTOKSIA</a>
+                    </a>
+                    <p class="copyright">
+                        &copy; 2023 code with GR
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <img src="./assets/pay.png" width="313" height="28" alt="available all payment method"
+                        class="w-100">
+                </div>
+
+
+
+            </div>
+
+        </div>
+        </footer>
+        <script>
+            /** 不同設備尺寸 載入不同解析度影片**/
+
+            //add source to video tag
+            function addSourceToVideo(element, src) {
+                let source = document.createElement('source');
+                source.src = src;
+                source.type = 'video/mp4';
+                // console.log(src);
+                element.appendChild(source);
+            }
+
+            //determine screen size and select mobile or desktop vid
+            function whichSizeVideo(element, src) {
+                //有用IE才用JQUERY的$變數多一個判斷
+                // var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+
+                let windowWidth = window.innerWidth;
+                if (windowWidth > 1200) {
+                    //用.dataset.desktopVid去讀取自訂的data-desktop-vid屬性
+                    addSourceToVideo(element, src.dataset.bigVid);
+                    console.log("L");
+                }
+                if (windowWidth > 768 && windowWidth < 1200) {
+                    //用.dataset.mobileVid去讀取自訂的data-mobile-vid屬性
+                    addSourceToVideo(element, src.dataset.midVid);
+                    console.log("M");
+                }
+
+                if (windowWidth < 768) {
+                    //用.dataset.mobileVid去讀取自訂的data-mobile-vid屬性
+                    addSourceToVideo(element, src.dataset.smallVid);
+                    console.log("S");
+                }
+            }
+            //init only if page has videos確認頁面有用video標籤，才執行這一整大段程式
+            function videoSize() {
+                console.log("start read video element");
+                let video = document.querySelectorAll('video')
+                console.log(video);
+
+                if (video !== undefined) {
+                    video.forEach(function (element) {
+                        console.log(video);
+                        console.log(element);
+                        whichSizeVideo(
+                            element, //element
+                            element  //src locations
+                        );
+
+                    });
+                }
+            }
+            videoSize();
+            //note IE11 polyfill needed for each, convert to for loop.
+        </script>
+        <!-- custom js file link -->
+        <script src="./script.js"></script>
+        <!--  ionicon link  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
