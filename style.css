@@ -1262,6 +1262,11 @@ header div.container .texts a:hover {
         min-height: 450px;
     }
 
+    /** back-ad */
+    .back-ad {
+        display: none;
+    }
+
     /** COUNTDOWN */
     .countdown #clock {
         font-family: sans-serif;
