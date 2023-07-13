@@ -857,6 +857,14 @@ header div.container .texts a:hover {
     z-index: -999;
 }
 
+ .adup,
+.addown{
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
 .back-ad .ad img {
     position: fixed;
     min-height: 100vh;
@@ -864,6 +872,7 @@ header div.container .texts a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -999;
+    object-fit: contain;
 }
 
 /*-----------------------------------*\
@@ -1263,9 +1272,9 @@ header div.container .texts a:hover {
     }
 
     /** back-ad */
-    .back-ad {
+    /* .back-ad {
         display: none;
-    }
+    } */
 
     /** COUNTDOWN */
     .countdown #clock {
