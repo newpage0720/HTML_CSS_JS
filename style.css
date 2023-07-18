@@ -433,16 +433,20 @@ header div.container .texts a:hover {
 .buttom-nav {
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 90%;
     height: 55px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     display: flex;
     overflow-x: auto;
     z-index: 10;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius:10px 10px 0% 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
-.buttom-nav__link {
+.buttom-nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -455,19 +459,19 @@ header div.container .texts a:hover {
     font-size: 13px;
     color: #444444;
     text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
+    /* -webkit-tap-highlight-color: transparent; */
     transition: background-color 0.1s ease-in-out;
 }
 
-.buttom-nav__link:hover {
+.buttom-nav-link:hover {
     background-color: #eeeeee;
 }
 
-.buttom-nav__link--active {
+.buttom-nav-link--active {
     color: #009578;
 }
 
-.buttom-nav__icon {
+.buttom-nav-icon {
     font-size: 18px;
 }
 
@@ -609,7 +613,7 @@ header div.container .texts a:hover {
     position: fixed;
     z-index: 1;
     right: 20px;
-    bottom: 20px;
+    bottom: 70px;
     text-align: center;
     width: 50px;
     height: 50px;
