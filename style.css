@@ -468,10 +468,10 @@ header div.container .texts a:hover {
 }
 
 .buttom-nav-link--active {
-    color: #009578;
+    color: var(--dark-pink);
 }
 
-.buttom-nav-icon {
+.buttom-nav a i {
     font-size: 18px;
 }
 
