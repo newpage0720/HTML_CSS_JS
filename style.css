@@ -475,6 +475,30 @@ header div.container .texts a:hover {
     font-size: 18px;
 }
 
+.buttom-nav a .shopping {
+    /* width: 20px;
+    height: 20px; */
+    position: relative;
+    /* background-color:#f9bf3d;
+    color:red; */
+}
+
+.buttom-nav a .shopping .shoppingBadge{
+    position: absolute;
+    width:15px;
+    height:15px;
+    background-color: red;
+    color:white;
+    top: 0px;
+    left: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 2px; */
+    border: 2px solid #fff;
+
+}
 /*-----------------------------------*\
   #BANNER
 \*-----------------------------------*/
