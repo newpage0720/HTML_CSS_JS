@@ -434,10 +434,11 @@ header div.container .texts a:hover {
     position: fixed;
     bottom: 0px;
     width: 90%;
-    height: 55px;
+    height: 50px;
     background-color: #ffffff;
     display: flex;
     overflow-x: auto;
+    /* font-size: 60px; */
     z-index: 10;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -456,7 +457,7 @@ header div.container .texts a:hover {
     overflow: hidden;
     white-space: nowrap;
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 5px;
     color: #444444;
     text-decoration: none;
     /* -webkit-tap-highlight-color: transparent; */
@@ -472,7 +473,7 @@ header div.container .texts a:hover {
 }
 
 .buttom-nav a i {
-    font-size: 18px;
+    font-size: 27px;
 }
 
 .buttom-nav a .shopping {
@@ -485,12 +486,12 @@ header div.container .texts a:hover {
 
 .buttom-nav a .shopping .shoppingBadge{
     position: absolute;
-    width:15px;
-    height:15px;
+    width:18px;
+    height:18px;
     background-color: red;
     color:white;
-    top: 0px;
-    left: 10px;
+    top: -5px;
+    left: 17px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
