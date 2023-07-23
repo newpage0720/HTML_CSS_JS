@@ -488,7 +488,7 @@ header div.container .texts a:hover {
     position: absolute;
     width:18px;
     height:18px;
-    background-color: red;
+    background-color:var(--dark-pink);
     color:white;
     top: -5px;
     left: 17px;
