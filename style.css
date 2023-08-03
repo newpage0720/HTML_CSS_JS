@@ -65,6 +65,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     transition: 0.3s linear;
 }
 
@@ -486,17 +487,17 @@ header div.container .texts a:hover {
 
 .buttom-nav a .shopping .shoppingBadge{
     position: absolute;
-    width:18px;
-    height:18px;
+    width: 30px;
+    height:30px;
     background-color:var(--dark-pink);
     color:white;
-    top: -5px;
+    top: -8px;
     left: 17px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: 2px; */
+    font-size: 15px;
     border: 2px solid #fff;
 
 }
